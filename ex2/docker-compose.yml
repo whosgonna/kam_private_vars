@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+    kamailio:
+        image: whosgonna/kam_examples:privateVars-ex1
+        volumes:
+            - ./kamailio:/etc/kamailio
+
+    kamailio2:
+        image: whosgonna/kam_examples:privateVars-ex1
+        volumes:
+            - ./kamailio2:/etc/kamailio
+
